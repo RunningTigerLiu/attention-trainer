@@ -36,6 +36,19 @@
       "category": "public.app-category.education",
       "icon": "build/icon.icns",
       "identity": null
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "build/icon.ico"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Education",
+      "icon": "build/icon.png"
     }
   },
   "repository": {
