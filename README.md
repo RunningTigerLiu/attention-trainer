@@ -2,7 +2,7 @@
 
 给小学低年级孩子（尤其是**注意缺陷为主型 ADHD / "安静型"**）用的**本地注意力训练**桌面程序。纯离线、不联网、数据只保存在本机。
 
-![拼音拼读](docs/screenshots/v5-pinyin-trial.png)
+![首页](docs/screenshots/home.png)
 
 ## 它是什么
 
@@ -12,9 +12,9 @@
 - 记录训练成绩、家长观察（上课/作业专注、情绪、作业时长），生成趋势图和 CSV（可打印给医生或老师）
 - 数据实时写入本地文件，每天自动备份；可导出/导入 JSON
 
-| 视觉搜索 | 规则切换 |
-|---|---|
-| ![视觉搜索](docs/screenshots/v5-vsearch-trial.png) | ![规则切换](docs/screenshots/v5-switch-trial.png) |
+| 拼音拼读 | 视觉搜索 | 规则切换 |
+|---|---|---|
+| ![拼音拼读](docs/screenshots/v5-pinyin-trial.png) | ![视觉搜索](docs/screenshots/v5-vsearch-trial.png) | ![规则切换](docs/screenshots/v5-switch-trial.png) |
 
 ## 任务与范式来源
 
