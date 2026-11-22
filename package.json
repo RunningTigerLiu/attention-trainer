@@ -1,0 +1,45 @@
+{
+  "name": "attn-trainer",
+  "productName": "专注力训练营",
+  "version": "1.0.0",
+  "description": "二年级 ADHD 注意力训练（本地离线，数据存本地文件）",
+  "main": "main.js",
+  "author": "RunningTigerLiu",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --mac"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.local.attntrainer",
+    "productName": "专注力训练营",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "index.html",
+      "css/**/*",
+      "js/**/*",
+      "main.js",
+      "preload.js",
+      "package.json"
+    ],
+    "mac": {
+      "target": [
+        "dir",
+        "zip"
+      ],
+      "category": "public.app-category.education",
+      "icon": "build/icon.icns",
+      "identity": null
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RunningTigerLiu/attention-trainer.git"
+  }
+}
