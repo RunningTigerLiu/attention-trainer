@@ -49,7 +49,8 @@
       ],
       "category": "Education",
       "icon": "build/icon.png"
-    }
+    },
+    "artifactName": "attn-trainer-${version}-${os}-${arch}.${ext}"
   },
   "repository": {
     "type": "git",
